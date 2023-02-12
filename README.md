@@ -37,3 +37,20 @@ function MyApp({ Component, pageProps }) {
 export default MyApp;
 
 ```
+### Document file
+>src/pages/index.js.js
+```js
+import { Html, Head, Main, NextScript } from 'next/document'
+
+export default function Document() {
+    return (
+        <Html>
+            <Head />
+            <body>
+            <Main />
+            <NextScript />
+            </body>
+        </Html>
+    )
+}
+```
