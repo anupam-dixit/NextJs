@@ -56,7 +56,7 @@ export default function Document() {
 ```
 ### Permit external js
 >next.config.js
-``js
+```js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
