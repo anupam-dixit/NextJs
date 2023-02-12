@@ -54,3 +54,16 @@ export default function Document() {
     )
 }
 ```
+### Permit external js
+>next.config.js
+``js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    urlImports: ['https://cdn.jsdelivr.net/gh/anupam-dixit/'],
+    appDir: false,
+  },
+}
+
+module.exports = nextConfig
+``
