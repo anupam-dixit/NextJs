@@ -1,5 +1,14 @@
 # NextJs
-
+### Env File
+>.env.local [root leve]
+```shell
+NEXT_PUBLIC_SOMETHING=12345
+TEST=12
+```
+and to get data from it
+```
+process.env.TEST
+```
 ### index File
 >src/pages/index.js.js
 ```js
